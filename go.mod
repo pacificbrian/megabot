@@ -2,7 +2,10 @@ module github.com/pacificbrian/megabot
 
 go 1.18
 
-require gobot.io/x/gobot/v2 v2.1.1
+require (
+	gobot.io/x/gobot/v2 v2.1.1
+	google.golang.org/protobuf v1.28.1
+)
 
 replace gobot.io/x/gobot/v2 => ../gobot
 
